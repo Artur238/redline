@@ -400,7 +400,7 @@ form{
     display: flex;
     align-items: center;
     flex: 1;
-    height: 65%;
+    height: 95%;
     padding-left: clamp(0.1em, 1vw, 4em);
 }
 .profit_img_container{
