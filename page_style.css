@@ -1,10 +1,12 @@
 @font-face {
     font-family: 'Rubik Medium';
     src: url(/Rubik-Medium.ttf);
+    font-display: swap;
 }
 @font-face {
     font-family: 'Rubik';
     src: url(/Rubik-Regular.ttf);
+    font-display: swap;
 }
 html{
     height: auto;
