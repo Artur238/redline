@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang=ru">
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="page_style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redline Delivery</title>
+</head>
+<body>
+    <header>
+        <div class="logo_container"></div>
+        <div class="search_container">
+            <form action="">
+                <input class="search_input" type="text" placeholder="Поиск товаров">
+                <button class="search_button">Найти</button>
+            </form>
+        </div>
+        <div class="profile_container">
+            <button class="img_user" id="opendialog"></button>
+            <div class="article_img"></div>
+        </div>
+    </header>
+    <main>
+        <div class="info">
+            <div class="article_top">Доставка, которая всегда <span class="color_words">рядом с вами</span></div>
+            <div class="article_low">Доставка еды, продуктов, товаров для дома и многое другое из магазинов и ресторанов</div>
+            <div class="list">
+                <div class="window">Пицца</div>
+                <div class="window">Суши</div>
+                <div class="window">Продукты</div>
+                <div class="window">Цветы</div>
+                <div class="window">Аптеки</div>
+            </div>
+        </div>
+        <div class="category">
+            <div class="category_article">Категории</div>
+            <div class="card_container">
+                <div class="card one">
+                    <div class="card_img one_img"></div>
+                    <div class="span_container">
+                        <span class="title_article">Готовая еда</span>
+                        <span class="low_article">Рестораны и кафе</span>
+                    </div>
+                </div>
+                <div class="card two">
+                    <div class="card_img two_img"></div>
+                    <div class="span_container">
+                        <span class="title_article">Продукты</span>
+                        <span class="low_article">Из магазинов</span>
+                    </div>
+                </div>
+                <div class="card three">
+                    <div class="card_img three_img"></div>
+                    <div class="span_container">
+                        <span class="title_article">Аптеки</span>
+                        <span class="low_article">Лекарства и товары</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img four_img"></div>
+                    <div class="span_container">
+                        <span class="title_article">Красота</span>
+                        <span class="low_article">И уход</span>
+                    </div>
+                </div>
+                <div class="card five">
+                    <div class="card_img five_img"></div>
+                    <div class="span_container">
+                        <span class="title_article">Цветы</span>
+                        <span class="low_article">Букеты и подарки</span>
+                    </div>
+                </div>
+                <div class="card six">
+                    <div class="card_img six_img"></div>
+                    <div class="span_container">
+                        <span class="title_article">Товары для дома</span>
+                        <span class="low_article">И не только</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shops">
+            <div class="shops_article">Популярные магазины</div>
+            <div class="card_container">
+                <div class="card one">
+                    <div class="card_img shop_one_img"></div>
+                    <div class="span_container">
+                        <span class="title_article">Пятерочка</span>
+                        <span class="low_article"> 10-15 мин</span>
+                    </div>
+                </div>
+                <div class="card two">
+                    <div class="card_img shop_two_img"></div>
+                    <div class="span_container">
+                        <span class="title_article">Магнит</span>
+                        <span class="low_article">15-20 мин</span>
+                    </div>
+                </div>
+                <div class="card three">
+                    <div class="card_img shop_three_img"></div>
+                    <div class="span_container">
+                        <span class="title_article">Красное & Белое</span>
+                        <span class="low_article">10-15 мин</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img shop_four_img"></div>
+                    <div class="span_container">
+                        <span class="title_article">Монетка</span>
+                        <span class="low_article">20-25 мин</span>
+                    </div>
+                </div>
+                <div class="card five">
+                    <div class="card_img shop_five_img"></div>
+                    <div class="span_container">
+                        <span class="title_article">FixPrice</span>
+                        <span class="low_article">30-35 мин</span>
+                    </div>
+                </div>
+                <div class="card six">
+                    <div class="card_img shop_six_img"></div>
+                    <div class="span_container">
+                        <span class="title_article">Доброцен</span>
+                        <span class="low_article">40-45 мин</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offers">
+            <div class="offers_article">Выгодные предложения</div>
+            <div class="offers_container">
+                <div class="offer offer_one"></div>
+                <div class="offer offer_two">
+                    <div class="offer_span_container">
+                        <span class="title"></span>
+                        <span class="medium"></span>
+                        <span class="low"></span>
+                    </div>
+                    <div class="offer_img_two"></div>
+                </div>
+                <div class="offer offer_three">
+                    <div class="offer_span_container">
+                        <span class="title"></span>
+                        <span class="medium"></span>
+                        <span class="low"></span>
+                    </div>
+                    <div class="offer_img_three"></div>
+                </div>
+            </div>
+        </div>
+        <div class="working">
+            <div class="working_article">Как это работает</div>
+            <div class="working_container">
+                <div class="work1">
+                    <div class="work_img_container">
+                        <div class="work_img no_svg1">
+                        </div>
+                    </div>
+                    <div class="work_span_container">
+                        <span class="work_title">Выберите магазин</span>
+                        <span class="work_low">Найдите любимый магазин или ресторан</span>
+                    </div>
+                </div>
+                <div class="work">
+                    <svg class="dotted-arrow" viewBox="0 0 100 20" fill="none" xmlns="http://w3.org">
+                        <path d="M0 10 H90" stroke="#CCCCCC" stroke-width="3.5" />
+                        <path d="M85 5 L95 10 L85 15" stroke="#CCCCCC" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M0 10 H96" stroke="#CCCCCC" stroke-width="3.5" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="work1">
+                    <div class="work_img_container">
+                        <div class="work_img no_svg2">
+                        </div>
+                    </div>
+                    <div class="work_span_container">
+                        <span class="work_title">Соберите заказ</span>
+                        <span class="work_low">Добавьте товары в корзину и оформите заказ</span>
+                    </div>
+                </div>
+                <div class="work">
+                    <svg class="dotted-arrow" viewBox="0 0 100 20" fill="none" xmlns="http://w3.org">
+                        <path d="M0 10 H90" stroke="#CCCCCC" stroke-width="3.5" />
+                        <path d="M85 5 L95 10 L85 15" stroke="#CCCCCC" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M0 10 H96" stroke="#CCCCCC" stroke-width="3.5" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="work1">
+                    <div class="work_img_container">
+                        <div class="work_img no_svg3">
+                        </div>
+                    </div>
+                    <div class="work_span_container">
+                        <span class="work_title">Мы доставим</span>
+                        <span class="work_low diff">Быстро доставим ваш заказ до двери</span>
+                    </div>
+                </div>
+                <div class="work">
+                    <svg class="dotted-arrow" viewBox="0 0 100 20" fill="none" xmlns="http://w3.org">
+                        <path d="M0 10 H90" stroke="#CCCCCC" stroke-width="3.5" />
+                        <path d="M85 5 L95 10 L85 15" stroke="#CCCCCC" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M0 10 H96" stroke="#CCCCCC" stroke-width="3.5" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="work1">
+                    <div class="work_img_container">
+                        <div class="work_img no_svg4">
+                        </div>
+                    </div>
+                    <div class="work_span_container">
+                        <span class="work_title">Наслаждайтесь</span>
+                        <span class="work_low diff">Получайте удовольствие от покупки</span>
+                    </div>
+                </div>
+            </div>
+            <div class="profit_container">
+                <div class="origin_profit_container">
+                    <div class="profit">
+                        <div class="profit_img_container">
+                            <div class="profit_img profit_one"></div>
+                        </div>
+                        <div class="profit_span_container">
+                            <div class="profit_title">Быстрая доставка</div>
+                            <div class="profit_low">Доставим в кратчайшие сроки</div>
+                        </div>
+                    </div>
+                    <div class="profit">
+                        <div class="profit_img_container">
+                            <div class="profit_img profit_two"></div>
+                        </div>
+                        <div class="profit_span_container">
+                            <div class="profit_title">Отслеживание заказа</div>
+                            <div class="profit_low">Следите за статусом в реальном времени</div>
+                        </div>
+                    </div>
+                    <div class="profit">
+                        <div class="profit_img_container">
+                            <div class="profit_img profit_three"></div>
+                        </div>
+                        <div class="profit_span_container">
+                            <div class="profit_title">Поддержка 24/7</div>
+                            <div class="profit_low">Мы всегда готовы помочь</div>
+                        </div>
+                    </div>
+                    <div class="profit">
+                        <div class="profit_img_container ">
+                            <div class="profit_img profit_four"></div>
+                        </div>
+                        <div class="profit_span_container">
+                            <div class="profit_title">Безопасная оплата</div>
+                            <div class="profit_low">Надежные способы оплаты</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_img_container">
+            <div class="footer_img"></div>
+            <div class="space">© 2026 Redline Delivery. Все права защищены.</div>
+        </div>
+        <div class="footer_span_container">
+            <div class="article_group group_one">
+                <div class="footer_top">Компания</div>
+                <div class="footer_low_container">
+                    <div class="footer_low">О нас</div>
+                    <div class="footer_low">Новости</div>
+                    <div class="footer_low">Вакансии</div>
+                </div>
+            </div>
+            <div class="article_group group_two">
+                <div class="footer_top">Клиентам</div>
+                <div class="footer_low_container">
+                    <div class="footer_low low_two">Условия использования</div>
+                    <div class="footer_low low_two">Политика конфидециальности</div>
+                    <div class="footer_low low_two">Возврат и отмена</div>
+                </div>
+            </div>
+            <div class="article_group group_three">
+                <div class="footer_top">Поддержка</div>
+                <div class="footer_low_container">
+                    <div class="footer_low">Помощь</div>
+                    <div class="footer_low">Контакты</div>
+                    <div class="footer_low">Стать курьером</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <dialog id="dialog">
+        <div class="dialog_container">
+            <div class="article_container">
+                <div class="dialog_article">Мой профиль</div>
+                <button class="close_button" id="closedialog"></button>
+            </div>
+            <div class="user_account">
+                <div class="user_img_container">
+                    <div class="user_img"></div>
+                </div>
+                <div class="user_span_container">
+                    <div class="info_container info_one">
+                        <span>Иван Иванов</span>
+                    </div>
+                    <div class="info_container">
+                        <span>+7 (950) 649-93-99</span>
+                    </div>
+                    <div class="info_container">
+                        <span>productmanager@gmail.com</span>
+                    </div>
+                </div>
+                <div class="user_button_container">
+                    <button class="user_button">
+                        <div class="img_button"></div>
+                        <div class="img_button_span">Редактировать</div>
+                    </button>
+                </div>
+            </div>
+            <div class="user_info">
+                <div class="user_info_container">
+                    <div class="user_info_row">
+                        <div class="user_article_low_container">Имя</div>
+                        <div class="user_article_title_container">Иван</div>
+                    </div>
+                    <div class="user_info_row">
+                        <div class="user_article_low_container">Фамилия</div>
+                        <div class="user_article_title_container">Иванов</div>
+                    </div>
+                    <div class="user_info_row">
+                        <div class="user_article_low_container">Телефон</div>
+                        <div class="user_article_title_container">+7 (950) 649-93-99</div>
+                    </div>
+                    <div class="user_info_row">
+                        <div class="user_article_low_container">Email</div>
+                        <div class="user_article_title_container">productmanager@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fast_action_container">
+                <div class="fast_action_button_container">
+                    <button class="fast_action_button">
+                        <div class="fast_action_img_container action_img_one">
+                            <div class="fast_action_img"></div>
+                        </div>
+                        <div class="fast_action_article_container">
+                            Мои заказы
+                        </div>
+                    </button>
+                </div>
+                <div class="fast_action_button_container">
+                    <button class="fast_action_button">
+                        <div class="fast_action_img_container action_img_two">
+                            <div class="fast_action_img"></div>
+                        </div>
+                        <div class="fast_action_article_container">
+                            Адреса
+                        </div>
+                    </button>
+                </div>
+                <div class="fast_action_button_container">
+                    <button class="fast_action_button">
+                        <div class="fast_action_img_container action_img_three">
+                            <div class="fast_action_img"></div>
+                        </div>
+                        <div class="fast_action_article_container">
+                            Промокоды
+                        </div>
+                    </button>
+                </div>
+                <div class="fast_action_button_container">
+                    <button class="fast_action_button">
+                        <div class="fast_action_img_container action_img_four">
+                            <div class="fast_action_img"></div>
+                        </div>
+                        <div class="fast_action_article_container">
+                            Избранное
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="exit_button_container">
+                <button class="exit_button">Выйти из аккаунта</button>
+            </div>
+        </div>
+    </dialog>
+</body>
+<script>
+    const dialog = document.getElementById('dialog');
+    const openBtn = document.getElementById('opendialog');
+    const closeBtn = document.getElementById('closedialog');
+
+    openBtn.addEventListener('click', () => {
+        dialog.showModal(); 
+    });
+
+    closeBtn.addEventListener('click', () => {
+        dialog.close();
+    });
+
+    dialog.addEventListener('click', (event) => {
+        if (event.target === dialog) {
+            dialog.close();
+        }
+    });
+
+</script>
+</html>
